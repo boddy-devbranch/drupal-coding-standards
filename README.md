@@ -62,5 +62,7 @@ then add **hooks** subsection to the **extra** section of your **composer.json**
         }
     }
 ```
-and finally you can set up the tasks naming and commit message format in file ```utility/git-hooks/_config.sh``` (they are already fine)
+### 3.3. Copy files
+Copy the ```utility``` folder to your project. 
+And finally you can set up the tasks naming and commit message format in file ```utility/git-hooks/_config.sh``` (they are already fine)
 
