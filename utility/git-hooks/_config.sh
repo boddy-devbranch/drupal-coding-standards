@@ -11,7 +11,7 @@ TASK_LINK_PATTERN="#[0-9]{1,4}"
 #TASK_LINK_SAMPLE="#000"
 #TASK_LINK_PATTERN="#[0-9]{1,4}"
 
-BRANCH_PATTERN="#[0-9]{1,4}\.-.*"
+BRANCH_PATTERN="[0-9]{1,4}\.-.*"
 BRANCH_LINK_SAMPLE="1234\.dev[-short-description]"
 
 # Helpers: color patterns.
