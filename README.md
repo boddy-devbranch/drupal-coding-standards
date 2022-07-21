@@ -1,17 +1,20 @@
 # Drupal Code Standards for PHPStorm
 
 ## 1. PHP_CodeSniffer and ESLint
-Run in the container
-```bash
-composer require --dev dealerdirect/phpcodesniffer-composer-installer
-
-npm i
-```
+Copy the ```package.json``` file to your project.
 
 Copy the ```phpcs.xml``` file to your project.
 
 Copy all the files from ```web``` to your WEBROOT folder.
 
+Run in the container
+```bash
+composer require --dev dealerdirect/phpcodesniffer-composer-installer
+```
+Run in the your root project
+```bash
+npm i
+```
 Go to PHPStorm, open Settings > PHP > Quality Tools , open section PHP_CodeSniffer.
 
 Change Configuration to Local and press dotted button next to it.
