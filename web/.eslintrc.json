@@ -1,0 +1,8 @@
+{
+  "extends": "./core/.eslintrc.json",
+  "rules": {
+    "func-names": [ "off" ],
+    "max-nested-callbacks": ["error", 10],
+    "no-use-before-define": ["error", "nofunc"]
+  }
+}
