@@ -34,7 +34,7 @@ Go to PHPStorm, open Settings > Editor > Inspections. Open **Quality tools** dro
 
 Change **Check files...** field to
 ```yaml
-php,module,inc,install,test,profile,theme,css,info,txt,md,yml
+php,module,inc,install,test,profile,theme,css,scss,info,txt,md,yml
 ```
 Change **Coding standard** to the 'Drupal'
 
@@ -70,15 +70,22 @@ then add **hooks** subsection to the **extra** section of your **composer.json**
         "file-mapping": {
           ...
           "[web-root]/.eslintrc.json": false                      
-        },
-        ...
-        "hooks": {
-            "pre-commit": "./utility/git-hooks/pre-commit.sh",
-            "commit-msg": "./utility/git-hooks/commit-msg.sh $1"
         }
+      }
+      ...
+      "hooks": {
+          "pre-commit": "./utility/git-hooks/pre-commit.sh",
+          "commit-msg": "./utility/git-hooks/commit-msg.sh $1"
+      }
     }
 
 ```
+
+Run in the container
+```bash
+composer install
+```
+
 ### 3.3. Copy files
 Copy the ```utility``` folder to your project.
 
