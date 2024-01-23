@@ -38,13 +38,13 @@ php,module,inc,install,test,profile,theme,css,scss,info,txt,md,yml
 ```
 Change **Coding standard** to the 'Drupal'
 
-Open the file ```.idea/inspectionProfiles/Project_Default.xml```, find the section
+Open the file ```.idea/php.xml```, find the section
 ```xml
-<option name="CODING_STANDARD" value="Drupal" />
+<option name="codingStandard" value="Drupal" />
 ```
 and replace it with
 ```xml
-<option name="CODING_STANDARD" value="Drupal,DrupalPractice" />
+<option name="codingStandard" value="DrupalPractice,Drupal" />
 ```
 
 ## 3. Hooks for git pre-commit
