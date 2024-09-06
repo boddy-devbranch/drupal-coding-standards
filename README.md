@@ -37,6 +37,7 @@ Change **Check files...** field to
 php,module,inc,install,test,profile,theme,css,scss,info,txt,md,yml
 ```
 Change **Coding standard** to the 'Drupal'
+***Close the PHPStorm to save changes to the config file***
 
 Open the file ```.idea/php.xml```, find the section
 ```xml
